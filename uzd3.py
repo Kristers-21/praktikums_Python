@@ -11,3 +11,14 @@
         int vai float -- argumentu summa
     
     """
+def bilde (a,b):
+    summa=a3+b3
+    return summa
+
+
+pirmais=int(input("Ievadi pirmo skaitli: "))
+otrais=int(input("Ievadi otri skaitli: "))
+
+aka=bilde(pirmais,otrais)
+
+print("{0:.3f}",format(aka))
